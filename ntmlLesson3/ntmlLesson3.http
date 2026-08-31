@@ -1,0 +1,6 @@
+@ntmlLesson3_HostAddress = http://localhost:5062
+
+GET {{ntmlLesson3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
