@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+
+header .custom-navbar {
+    background-color: #222222 !important;
+    padding: 8px 160px;
+}
+
+    header .custom-navbar .nav-link {
+        font-size: 14px;
+    }
+
+/* --- CAROUSEL STYLES --- */
+.carousel {
+    position: relative !important;
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    background-color: green;
+}
+
+.carousel-item img {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 35px;
+    left: 10%;
+    right: 10%;
+    padding: 0;
+    text-align: center;
+}
+
+    .carousel-caption p {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+.learnmore-btn {
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .learnmore-btn:hover {
+        background-color: #e6e6e6;
+    }
+
+.carousel-indicators {
+    bottom: 10px;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.carousel-indicators li {
+    width: 9px !important;
+    height: 9px !important;
+    border-radius: 50% !important;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none !important;
+    margin: 0 4px;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 1;
+}
+
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        opacity: 1;
+    }

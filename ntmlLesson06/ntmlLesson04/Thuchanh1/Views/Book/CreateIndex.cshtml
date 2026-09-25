@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "CreateIndex";
+}
+@model Thuchanh1.Models.Book
+<h2>Them sach moi</h2>
+<form action="" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title">Ten sach</label>
+        <input type="text"  class="form-control"  asp-for="Title" placeholder="Ten sach"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="AuthorId">tac gia </label>
+        <select asp-for="AuthorId" class="form-control">
+                <option value="" >Chon tac gia</option>
+         </select>       
+    </div>
+    <div class="form-group">
+        <label asp-for="GenreId">The loai </label>
+        <select asp-for="GenreId" class="form-control">
+            <option value="">Chon the loai</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Gia</label>
+        <input type="text" class="form-control" asp-for="Price" placeholder="Gia" />    
+    </div>
+    <div class="form-group">
+        <label asp-for="TotalPage"> tong So trang</label>
+        <input type="text" class="form-control" asp-for="TotalPage" placeholder="So trang" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Image">Hinh anh</label>
+        <input type="text" class="form-control" asp-for="Image" placeholder="Hinh anh" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Summary">Gioi thieu ngan</label>
+        <input type="text" class="form-control" asp-for="Summary" placeholder="Gioi thieu ngan" />
+    </div>
+    <button type="submit" class="btn btn-primary"> Luu lai</button>
+
+</form>
