@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ntmlLesson3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b683582a4cbd4f3150f6ad3cbdf925eda7d394")]
 [assembly: System.Reflection.AssemblyProductAttribute("ntmlLesson3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ntmlLesson3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

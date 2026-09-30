@@ -12,14 +12,14 @@
         <input type="text"  class="form-control"  asp-for="Title" placeholder="Ten sach"/>
     </div>
     <div class="form-group">
-        <label asp-for="AuthorId">tac gia </label>
-        <select asp-for="AuthorId" class="form-control">
+        <label asp-for="AuthorId" >tac gia </label>
+        <select asp-for="AuthorId" class="form-control" asp-items="@ViewBag.authors">
                 <option value="" >Chon tac gia</option>
          </select>       
     </div>
     <div class="form-group">
         <label asp-for="GenreId">The loai </label>
-        <select asp-for="GenreId" class="form-control">
+        <select asp-for="GenreId" class="form-control" asp-items="@ViewBag.geners">
             <option value="">Chon the loai</option>
         </select>
     </div>

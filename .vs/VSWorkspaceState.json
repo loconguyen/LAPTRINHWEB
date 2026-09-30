@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ntmlLesson04",
+    "\\ntmlLesson04\\Thuchanh1",
+    "\\ntmlLesson04\\Thuchanh1\\Views",
+    "\\ntmlLesson04\\Thuchanh1\\Views\\Book"
   ],
+  "SelectedNode": "\\ntmlLesson04\\Thuchanh1\\Views\\Book\\BookIndex.cshtml",
   "PreviewInSolutionExplorer": false
 }

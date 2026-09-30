@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LAPTRINHWEB\\ntmlLesson4\\Thuchanh1\\Thuchanh1\\Thuchanh1.csproj": {}
+    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson04\\Thuchanh1\\Thuchanh1.csproj": {}
   },
   "projects": {
-    "F:\\LAPTRINHWEB\\ntmlLesson4\\Thuchanh1\\Thuchanh1\\Thuchanh1.csproj": {
+    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson04\\Thuchanh1\\Thuchanh1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LAPTRINHWEB\\ntmlLesson4\\Thuchanh1\\Thuchanh1\\Thuchanh1.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson04\\Thuchanh1\\Thuchanh1.csproj",
         "projectName": "Thuchanh1",
-        "projectPath": "F:\\LAPTRINHWEB\\ntmlLesson4\\Thuchanh1\\Thuchanh1\\Thuchanh1.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "F:\\LAPTRINHWEB\\ntmlLesson4\\Thuchanh1\\Thuchanh1\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson04\\Thuchanh1\\Thuchanh1.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson04\\Thuchanh1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

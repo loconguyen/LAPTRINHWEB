@@ -21,5 +21,18 @@ namespace Thuchanh1.Controllers
             return View(model);
 
         }
+        public IActionResult EditIndex (int id)
+        {
+            ViewBag.authors = book.Authors;
+            ViewBag.genres = book.Genres;
+            Book model = book.GetBookById(id);
+            return View(model);
+        }
+
+        public PartialViewResult PopularBook()
+        {
+            var books = book.GetBookList();
+            return PartialView(books);
+        }
     }
 }
