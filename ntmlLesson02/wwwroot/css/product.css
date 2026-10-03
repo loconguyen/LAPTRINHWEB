@@ -1,0 +1,105 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+thead {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    text-align: left;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 7px 5px;
+}
+
+td {
+    height: 39px;
+    padding: 4px 5px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+    /* Độ rộng từng cột */
+
+    th:nth-child(1),
+    td:nth-child(1) {
+        width: 7%;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+        width: 18%;
+    }
+
+    th:nth-child(3),
+    td:nth-child(3) {
+        width: 18%;
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+        width: 20%;
+    }
+
+    th:nth-child(5),
+    td:nth-child(5) {
+        width: 20%;
+    }
+
+    th:nth-child(6),
+    td:nth-child(6) {
+        width: 17%;
+    }
+
+    /* Image */
+
+    td img {
+        width: 42px;
+        height: 42px;
+        object-fit: contain;
+        display: block;
+    }
+
+/* View button */
+
+.btn-view {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+    .btn-view:hover {
+        background-color: #43a047;
+    }
