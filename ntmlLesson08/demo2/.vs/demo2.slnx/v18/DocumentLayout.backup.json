@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\datamodels\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\datamodels\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\datamodels\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\datamodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\datamodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\datamodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\datamodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\datamodels\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\datamodels\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\models\\businessmodels\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:models\\businessmodels\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\ntmllesson08\\demo2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8EE61BB4-4D5A-284E-CDC6-543373189DD4}|demo2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\OrderDetails.cs",
+              "RelativeToolTip": "Models\\DataModels\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:38:18.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\Account.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Account.cs",
+              "RelativeToolTip": "Models\\DataModels\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:38:06.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\Category.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Category.cs",
+              "RelativeToolTip": "Models\\DataModels\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:33:33.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\Book.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Book.cs",
+              "RelativeToolTip": "Models\\DataModels\\Book.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:28:29.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Publisher.cs",
+              "RelativeDocumentMoniker": "Models\\DataModels\\Publisher.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\DataModels\\Publisher.cs",
+              "RelativeToolTip": "Models\\DataModels\\Publisher.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:31:28.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\BusinessModels\\BookManagementContext.cs",
+              "RelativeDocumentMoniker": "Models\\BusinessModels\\BookManagementContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\Models\\BusinessModels\\BookManagementContext.cs",
+              "RelativeToolTip": "Models\\BusinessModels\\BookManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T04:14:32.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-05T04:20:05.867Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
