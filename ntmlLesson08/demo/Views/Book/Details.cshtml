@@ -1,0 +1,57 @@
+
+@model ntmlLesson08.Models.Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Chi tiết sách</h2>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            <h3>@Model.Title</h3>
+
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Mã sách</dt>
+                <dd class="col-sm-9">@Model.BookId</dd>
+
+                <dt class="col-sm-3">Tác giả</dt>
+                <dd class="col-sm-9">@Model.Author</dd>
+
+                <dt class="col-sm-3">Năm xuất bản</dt>
+                <dd class="col-sm-9">@Model.Release</dd>
+
+                <dt class="col-sm-3">Giá bán</dt>
+                <dd class="col-sm-9">
+                    @string.Format("{0:N0}", Model.Price) đ
+                </dd>
+
+                <dt class="col-sm-3">Danh mục</dt>
+                <dd class="col-sm-9">
+                    @Model.Category?.CategoryName
+                </dd>
+
+                <dt class="col-sm-3">Nhà xuất bản</dt>
+                <dd class="col-sm-9">
+                    @Model.Publisher?.PublisherName
+                </dd>
+
+                <dt class="col-sm-3">Mô tả</dt>
+                <dd class="col-sm-9">
+                    @Model.Description
+                </dd>
+            </dl>
+
+            <a asp-controller="Books"
+               asp-action="Index"
+               class="btn btn-secondary">
+                Quay lại
+            </a>
+
+        </div>
+    </div>
+</div>

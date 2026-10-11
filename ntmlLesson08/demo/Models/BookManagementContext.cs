@@ -74,7 +74,7 @@ public partial class BookManagementContext : DbContext
             entity.Property(e => e.Description).HasColumnType("ntext");
             entity.Property(e => e.Picture).HasMaxLength(100);
             entity.Property(e => e.Title).HasMaxLength(200);
-
+            // mot sach thuoc mot danh muc- mot danh muc voi nhieu sach
             entity.HasOne(d => d.Category).WithMany(p => p.Books)
                 .HasForeignKey(d => d.CategoryId)
                 .HasConstraintName("FK__Book__CategoryId__4F7CD00D");

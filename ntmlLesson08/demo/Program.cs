@@ -1,8 +1,11 @@
+using ntmlLesson08.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+// dang ki dbcontext
+builder.Services.AddDbContext<BookManagementContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CpAtSTmkRk4=",
+  "dgSpecHash": "Ro3ms9Q72o8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\ntmlLesson08.csproj",
+  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\ntmlLesson08.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

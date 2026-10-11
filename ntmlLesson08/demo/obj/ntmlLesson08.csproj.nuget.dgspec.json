@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\ntmlLesson08.csproj": {}
+    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\ntmlLesson08.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\ntmlLesson08.csproj": {
+    "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\ntmlLesson08.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\ntmlLesson08.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\ntmlLesson08.csproj",
         "projectName": "ntmlLesson08",
-        "projectPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\ntmlLesson08.csproj",
+        "projectPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\ntmlLesson08.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\demo\\ntmlLesson08\\obj\\",
+        "outputPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\ntmlLesson08\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
