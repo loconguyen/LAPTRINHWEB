@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Website</title>
+
+    <link rel="stylesheet"
+          href="~/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="~/css/slick.css" />
+     <link rel="stylesheet" href="~/css/templatemo-style.css" />
+      <link rel="stylesheet" href="~/css/style.css" />
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <nav class="d-flex justify-content-between">
+                <h3>MY WEBSITE</h3>
+
+                <div>
+                    <a asp-area=""
+                       asp-controller="Home"
+                       asp-action="Index"
+                       class="text-white me-3">
+                        Home
+                    </a>
+
+                    <a asp-area=""
+                       asp-controller="Home"
+                       asp-action="Privacy"
+                       class="text-white">
+                        Privacy
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- NỘI DUNG VIEW -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-4">
+        <p>Copyright 2026 - My Website</p>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
