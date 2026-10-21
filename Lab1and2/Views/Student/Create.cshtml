@@ -1,0 +1,122 @@
+
+@model Lab1.Models.Student
+@using Lab1.Models
+
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<div class="container mt-5">
+    <div class="card shadow border-0 rounded-3">
+
+        <div class="card-header bg-primary text-white p-3">
+            <h4 class="mb-0">Create New Student</h4>
+        </div>
+
+        <div class="card-body p-4">
+
+            <!-- Cách 1: Sử dụng asp-action -->
+
+<form asp-controller="Student" asp-action="Create" method="post">
+    <!-- Cách 2: Sử dụng HTML action -->
+    <!-- <form action="/Admin/Student/Add" method="post"> -->
+    <!-- Cách 3: Sử dụng asp-route -->
+    <!-- <form asp-route="StudentAdd" method="post"> -->
+                <div asp-validation-summary="ModelOnly"
+                     class="text-danger"></div>
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" type="password"
+                               class="form-control" />
+                        <span asp-validation-for="Password"
+                              class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Branch" class="form-label"></label>
+                        <select asp-for="Branch"
+                                asp-items="Html.GetEnumSelectList<Branch>()"
+                                class="form-select">
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="DateOfBirth"
+                               class="form-label"></label>
+                        <input asp-for="DateOfBirth" type="date"
+                               class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Gender"
+                               class="form-label d-block"></label>
+
+                        @foreach (var gender in ViewBag.AllGenders)
+                        {
+                            <div class="form-check form-check-inline">
+                                <input asp-for="Gender"
+                                       type="radio"
+                                       value="@gender"
+                                       id="Gender@(gender)"
+                                       class="form-check-input" />
+                                <label for="Gender@(gender)"
+                                       class="form-check-label">
+                                    @gender
+                                </label>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Address" class="form-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="form-check">
+                            <input asp-for="IsRegular"
+                                   class="form-check-input" />
+                            <label asp-for="IsRegular"
+                                   class="form-check-label"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-4 d-flex gap-2">
+                    <button type="submit" class="btn btn-success px-4">
+                        Create
+                    </button>
+
+                    <a asp-action="Index"
+                       class="btn btn-secondary px-4">
+                        Back to List
+                    </a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
