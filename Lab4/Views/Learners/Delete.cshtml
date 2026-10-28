@@ -1,0 +1,16 @@
+@model Lab4.Models.Learner
+@{ ViewData["Title"] = "Xóa học viên"; }
+<h1>Xóa học viên</h1>
+<div asp-validation-summary="All" class="text-danger" role="alert"></div>
+<partial name="_LearnerInfo" model="Model" />
+@if (Model.Enrollments.Any()) {
+    <div class="alert alert-warning" role="alert">Không thể xóa học viên đã có đăng ký học.</div>
+    <a asp-action="Index" class="btn btn-secondary">Về danh sách</a>
+} else {
+    <p>Bạn có chắc chắn muốn xóa học viên này?</p>
+    <form asp-action="Delete" asp-route-id="@Model.LearnerID" method="post">
+        <input type="hidden" asp-for="LearnerID" />
+        <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Hủy</a>
+    </form>
+}

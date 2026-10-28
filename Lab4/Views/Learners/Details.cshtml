@@ -1,0 +1,15 @@
+@model Lab4.Models.Learner
+@{ ViewData["Title"] = "Chi tiết học viên"; }
+<h1>Chi tiết học viên</h1>
+<partial name="_LearnerInfo" model="Model" />
+<h2 class="h4">Đăng ký học</h2>
+@if (Model.Enrollments.Any()) {
+    <table class="table table-striped">
+        <thead><tr><th>Môn học</th><th>Tín chỉ</th><th>Điểm</th></tr></thead>
+        <tbody>@foreach (var enrollment in Model.Enrollments) {
+            <tr><td>@enrollment.Course?.Title</td><td>@enrollment.Course?.Credits</td><td>@enrollment.Grade</td></tr>
+        }</tbody>
+    </table>
+} else { <p>Chưa có đăng ký học.</p> }
+<a asp-action="Edit" asp-route-id="@Model.LearnerID" class="btn btn-primary">Sửa</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Về danh sách</a>

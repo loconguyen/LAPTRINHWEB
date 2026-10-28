@@ -1,0 +1,26 @@
+@model IEnumerable<Lab4.Models.Learner>
+@{ ViewData["Title"] = "Danh sách học viên"; }
+<h1>Danh sách học viên</h1>
+@if (TempData["Success"] is string message) {
+    <div class="alert alert-success" role="status">@message</div>
+}
+<p><a asp-action="Create" class="btn btn-primary">Thêm học viên</a></p>
+<div class="table-responsive">
+<table class="table table-striped align-middle">
+    <thead><tr><th>Mã</th><th>Tên</th><th>Họ</th><th>Ngành học</th><th>Ngày nhập học</th><th>Chức năng</th></tr></thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>@item.LearnerID</td><td>@item.FirstMidName</td><td>@item.LastName</td>
+            <td>@item.Major?.MajorName</td><td>@item.EnrollmentDate.ToString("dd/MM/yyyy")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LearnerID">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.LearnerID">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.LearnerID">Xóa</a>
+            </td>
+        </tr>
+    }
+    @if (!Model.Any()) { <tr><td colspan="6">Chưa có học viên.</td></tr> }
+    </tbody>
+</table>
+</div>
