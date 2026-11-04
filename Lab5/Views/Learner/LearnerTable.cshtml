@@ -1,56 +1,12 @@
 @model IEnumerable<Lab5.Models.Learner>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>
-                Ma
-            </th>
-            <th>
-                Tem
-            </th>
-            <th>
-               Ho
-            </th>
-            <th>
-                Nganh
-            </th>
-            <th>
-               Ngay nhap hoc
-            </th>
-            <th>
-                Chuc nang
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-              @item.LearnerId
-            </td>
-            <td>
-                @item.FirstMidName
-            </td>
-            <td>
-                @item.LastName
-            </td>
-            <td>
-                @item.Major?.MajorName
-            </td>
-            <td>
-                @item.EnrollmentDate
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.Major)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.LearnerId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.LearnerId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.LearnerId">Delete</a>
-            </td>
-        </tr>
+<div class="table-responsive"><table class="table align-middle mb-0"><thead><tr><th>Mã SV</th><th>Họ và tên</th><th>Chuyên ngành</th><th>Ngày nhập học</th><th class="text-end">Thao tác</th></tr></thead><tbody>
+@foreach (var learner in Model) {
+<tr><td><span class="student-id">SV@learner.LearnerId.ToString("D4")</span></td><td><a class="student-name" asp-action="Details" asp-route-id="@learner.LearnerId">@learner.LastName @learner.FirstMidName</a></td><td><span class="badge-soft">@learner.Major?.MajorName</span></td><td>@learner.EnrollmentDate.ToString("dd/MM/yyyy")</td><td class="text-end actions"><a asp-action="Details" asp-route-id="@learner.LearnerId">Xem</a><a asp-action="Edit" asp-route-id="@learner.LearnerId">Sửa</a><a class="delete-link" asp-action="Delete" asp-route-id="@learner.LearnerId">Xóa</a></td></tr>
 }
-    </tbody>
-</table>
+@if (!Model.Any()) { <tr><td colspan="5" class="empty-state"><strong>Không tìm thấy sinh viên</strong><p>Thử thay đổi từ khóa hoặc chuyên ngành để tìm lại.</p><a asp-action="Index">Xem tất cả sinh viên</a></td></tr> }
+</tbody></table></div>
+<div class="table-footer"><span>@ViewBag.Total kết quả · Trang @ViewBag.pageIndex / @ViewBag.pageNum</span><nav aria-label="Phân trang"><ul class="pagination mb-0">
+@if ((int)ViewBag.pageIndex > 1) { <li class="page-item"><a class="page-link" asp-action="Index" asp-route-mid="@ViewBag.mid" asp-route-keyword="@ViewBag.keyword" asp-route-pageIndex="@(ViewBag.pageIndex - 1)">Trước</a></li> }
+@for (int i = Math.Max(1, (int)ViewBag.pageIndex - 2); i <= Math.Min((int)ViewBag.pageNum, (int)ViewBag.pageIndex + 2); i++) { <li class="page-item @(i == (int)ViewBag.pageIndex ? "active" : "")"><a class="page-link" aria-current="@(i == (int)ViewBag.pageIndex ? "page" : null)" asp-action="Index" asp-route-mid="@ViewBag.mid" asp-route-keyword="@ViewBag.keyword" asp-route-pageIndex="@i">@i</a></li> }
+@if ((int)ViewBag.pageIndex < (int)ViewBag.pageNum) { <li class="page-item"><a class="page-link" asp-action="Index" asp-route-mid="@ViewBag.mid" asp-route-keyword="@ViewBag.keyword" asp-route-pageIndex="@(ViewBag.pageIndex + 1)">Sau</a></li> }
+</ul></nav></div>

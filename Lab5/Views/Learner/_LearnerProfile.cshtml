@@ -1,0 +1,2 @@
+@model Lab5.Models.Learner
+<dl class="profile"><div><dt>Mã sinh viên</dt><dd>SV@Model.LearnerId.ToString("D4")</dd></div><div><dt>Họ và tên</dt><dd>@Model.LastName @Model.FirstMidName</dd></div><div><dt>Chuyên ngành</dt><dd>@Model.Major?.MajorName</dd></div><div><dt>Ngày nhập học</dt><dd>@Model.EnrollmentDate.ToString("dd/MM/yyyy")</dd></div></dl>

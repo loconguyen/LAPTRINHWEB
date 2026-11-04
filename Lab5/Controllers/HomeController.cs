@@ -8,7 +8,7 @@ namespace Lab5.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Learner");
         }
 
         public IActionResult Privacy()

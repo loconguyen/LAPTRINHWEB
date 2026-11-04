@@ -1,0 +1,8 @@
+@model Lab5.Models.Learner
+<div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+<div class="form-grid">
+    <div><label asp-for="LastName"></label><input asp-for="LastName" class="form-control" autocomplete="family-name" /><span asp-validation-for="LastName" class="text-danger"></span></div>
+    <div><label asp-for="FirstMidName"></label><input asp-for="FirstMidName" class="form-control" autocomplete="given-name" /><span asp-validation-for="FirstMidName" class="text-danger"></span></div>
+    <div><label asp-for="EnrollmentDate"></label><input asp-for="EnrollmentDate" type="date" class="form-control" /><span asp-validation-for="EnrollmentDate" class="text-danger"></span></div>
+    <div><label asp-for="MajorId"></label><select asp-for="MajorId" asp-items="ViewBag.Majors" class="form-select"><option value="">Chọn chuyên ngành</option></select><span asp-validation-for="MajorId" class="text-danger"></span></div>
+</div>

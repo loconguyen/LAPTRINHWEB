@@ -1,59 +1,6 @@
 @model Lab5.Models.Learner
-
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h1>Details</h1>
-
-<div>
-    <h4>Learner</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FirstMidName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FirstMidName)
-        </dd>
-    </dl>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-    </dl>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EnrollmentDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EnrollmentDate)
-        </dd>
-    </dl>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MajorId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MajorId)
-        </dd>
-    </dl>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Enrollments)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Enrollments)
-        </dd>
-    </dl>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Major)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Major)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.LearnerId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+@{ ViewData["Title"] = "Chi tiết sinh viên"; }
+<a asp-action="Index" class="back-link">← Danh sách sinh viên</a>
+<div class="page-heading"><div><div class="eyebrow">HỒ SƠ SINH VIÊN</div><h1>@Model.LastName @Model.FirstMidName</h1><p>Thông tin cá nhân và các học phần đã đăng ký.</p></div><a asp-action="Edit" asp-route-id="@Model.LearnerId" class="btn btn-primary">Chỉnh sửa hồ sơ</a></div>
+<section class="panel form-panel"><h2>Thông tin sinh viên</h2><partial name="_LearnerProfile" model="Model" /></section>
+<section class="panel mt-4"><div class="panel-heading"><h2>Học phần đã đăng ký</h2><span class="badge-soft">@Model.Enrollments.Count học phần</span></div><div class="table-responsive"><table class="table mb-0"><thead><tr><th>Học phần</th><th>Số tín chỉ</th><th>Điểm</th></tr></thead><tbody>@foreach (var enrollment in Model.Enrollments) { <tr><td>@enrollment.Course.Title</td><td>@enrollment.Course.Credits</td><td>@(enrollment.Grade?.ToString("0.##") ?? "Chưa có điểm")</td></tr> } @if (!Model.Enrollments.Any()) { <tr><td colspan="3" class="empty-state">Sinh viên chưa đăng ký học phần nào.</td></tr> }</tbody></table></div></section>

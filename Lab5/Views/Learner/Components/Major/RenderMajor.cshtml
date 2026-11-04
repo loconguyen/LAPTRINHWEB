@@ -4,12 +4,17 @@
 @{
 }
 @model IEnumerable<Lab5.Models.Major>
-<ul class="nav">
+<ul class="nav" id="majorNav">
+    <li>
+        <a asp-controller="Learner" asp-action="Index" class="nav-link" data-mid="">
+            Tất cả
+        </a>
+    </li>
     @foreach (var m in Model)
     {
         <li class="nav-item">
             <a asp-controller="Learner" asp-action="Index" asp-route-mid="@m.MajorId"
-            class="nav-link">
+            class="nav-link" data-mid="@m.MajorId">
                 @m.MajorName
             </a>
         </li>

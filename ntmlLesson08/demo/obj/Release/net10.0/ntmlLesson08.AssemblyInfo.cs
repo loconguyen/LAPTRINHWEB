@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ntmlLesson08")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d639a357143697210219017664c6b0be8da3493")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d8cf8508371359f9cdc47992fec5f43337b889a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ntmlLesson08")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ntmlLesson08")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

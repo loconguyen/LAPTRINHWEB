@@ -1,45 +1,32 @@
-﻿﻿
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    
-    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] · SchoolHub</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-  
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-          rel="stylesheet" />
 </head>
-
-<body class="sb-nav-fixed">
-
-    <partial name="_TopNav" />
-
-    <div id="layoutSidenav">
-
-        <partial name="_LeftMenu" />
-
-        <div id="layoutSidenav_content">
-
-            <main class="container-fluid px-4 py-4">
-                @RenderBody()
-            </main>
-
-            
-
-            <partial name="_Footer" />
-        </div>
+<body>
+    <aside class="sidebar">
+        <a class="brand" asp-controller="Home" asp-action="Index"><span class="brand-icon">S</span> SchoolHub</a>
+        <div class="nav-label">KHÔNG GIAN QUẢN LÝ</div>
+        <nav aria-label="Điều hướng chính">
+            <a class="side-link active" asp-controller="Learner" asp-action="Index">▦ <span>Quản lý sinh viên</span></a>
+            <a class="side-link" asp-controller="Learner" asp-action="Create">＋ <span>Thêm sinh viên</span></a>
+        </nav>
+        <div class="sidebar-note"><strong>SchoolHub / Lab 5</strong><br />Hệ thống quản lý đào tạo</div>
+    </aside>
+    <div class="workspace">
+        <header class="topbar"><span>Đào tạo <span class="muted">/ Quản lý sinh viên</span></span><span class="workspace-badge">Không gian học vụ</span></header>
+        <main id="main-content">
+            @if (TempData["Success"] is string message) { <div class="alert alert-success" role="status">@message</div> }
+            @RenderBody()
+        </main>
+        <footer>SchoolHub <span>Hệ thống quản lý sinh viên · @DateTime.Today.Year</span></footer>
     </div>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/scripts.js"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
-
-
-
 </body>
 </html>

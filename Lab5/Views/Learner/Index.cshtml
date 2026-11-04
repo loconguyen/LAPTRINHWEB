@@ -1,46 +1,13 @@
-﻿@model IEnumerable<Lab5.Models.Learner>
-
-@{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/MyLayout.cshtml";
-}
-
-<h1>Learner List</h1>
-@await Component.InvokeAsync("Major")
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<div id="content">
-    <partial name="LearnerTable" model="Model"></partial>
-</div>
-<a asp-action="Create" class="btn btn-primary">
-    Create new student
-</a>
-@section Scripts {
-    <script>
-        $(document).ready(function () {
-
-            $(".nav-item[id] .nav-link").click(function (e) {
-
-                e.preventDefault();
-
-                var id = $(this).parent().attr("id");
-
-                $.ajax({
-                    url: '@Url.Action("LearnerByMajorID", "Learner")',
-                    type: "GET",
-                    data: { mid: id },
-
-                    success: function (response) {
-                        $("#content").html(response);
-                    },
-
-                    error: function () {
-                        alert("Không thể tải dữ liệu!");
-                    }
-                });
-            });
-
-        });
-    </script>
-}
+@model IEnumerable<Lab5.Models.Learner>
+@{ ViewData["Title"] = "Quản lý sinh viên"; }
+<div class="page-heading"><div><div class="eyebrow">QUẢN LÝ ĐÀO TẠO</div><h1>Sinh viên</h1><p>Quản lý hồ sơ, tìm kiếm và cập nhật thông tin sinh viên.</p></div><a asp-action="Create" class="btn btn-primary">＋ Thêm sinh viên</a></div>
+<div class="stats"><div class="stat"><span>Tổng sinh viên</span><strong>@ViewBag.TotalLearners</strong><small>Hồ sơ trong hệ thống</small></div><div class="stat"><span>Chuyên ngành</span><strong>@ViewBag.TotalMajors</strong><small>Ngành đào tạo hiện có</small></div><div class="stat"><span>Kết quả tìm kiếm</span><strong>@ViewBag.Total</strong><small>Sinh viên phù hợp bộ lọc</small></div></div>
+<section class="panel">
+    <div class="panel-heading"><h2>Danh sách sinh viên</h2><span class="badge-soft">@ViewBag.Total hồ sơ</span></div>
+    <form method="get" asp-action="Index" class="filters">
+        <div class="search-field"><label for="keyword">Tìm kiếm sinh viên</label><input id="keyword" name="keyword" value="@ViewBag.keyword" class="form-control" placeholder="Nhập họ hoặc tên sinh viên…" maxlength="100" /></div>
+        <div><label for="mid">Chuyên ngành</label><select id="mid" name="mid" asp-items="ViewBag.Majors" class="form-select"><option value="">Tất cả chuyên ngành</option></select></div>
+        <button class="btn btn-primary" type="submit">Tìm kiếm</button><a asp-action="Index" class="btn btn-light">Đặt lại</a>
+    </form>
+    <partial name="LearnerTable" model="Model" />
+</section>

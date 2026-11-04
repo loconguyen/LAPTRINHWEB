@@ -1,156 +1,118 @@
-
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Lab5.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
-public class LearnerController : Controller
+public class LearnerController(SchoolContext context) : Controller
 {
-    private readonly SchoolContext _context;
+    private const int PageSize = 8;
 
-    public LearnerController(SchoolContext context)
+    public Task<IActionResult> Index(int? mid, string? keyword, int pageIndex = 1) => List(mid, keyword, pageIndex, false);
+    public Task<IActionResult> LearnerFilter(int? mid, string? keyword, int pageIndex = 1) => List(mid, keyword, pageIndex, true);
+
+    private async Task<IActionResult> List(int? mid, string? keyword, int pageIndex, bool partial)
     {
-        _context = context;
+        keyword = keyword?.Trim();
+        var query = context.Learners.AsNoTracking().Include(l => l.Major).AsQueryable();
+        ViewBag.TotalLearners = await context.Learners.CountAsync();
+        ViewBag.TotalMajors = await context.Majors.CountAsync();
+        if (mid.HasValue) query = query.Where(l => l.MajorId == mid);
+        if (!string.IsNullOrEmpty(keyword))
+            query = query.Where(l => l.FirstMidName.Contains(keyword) || l.LastName.Contains(keyword) || (l.LastName + " " + l.FirstMidName).Contains(keyword));
+        int total = await query.CountAsync();
+        int pages = Math.Max(1, (int)Math.Ceiling(total / (double)PageSize));
+        int page = Math.Clamp(pageIndex, 1, pages);
+        ViewBag.pageNum = pages;
+        ViewBag.pageIndex = page;
+        ViewBag.mid = mid;
+        ViewBag.keyword = keyword;
+        ViewBag.Total = total;
+        ViewBag.Majors = new SelectList(await context.Majors.AsNoTracking().OrderBy(m => m.MajorName).ToListAsync(), "MajorId", "MajorName", mid);
+        var items = await query.OrderBy(l => l.LearnerId).Skip((page - 1) * PageSize).Take(PageSize).ToListAsync();
+        return partial ? PartialView("LearnerTable", items) : View("Index", items);
     }
 
-    // GET: LEARNERS
-    public async Task<IActionResult> Index(int? mid)    
+    public async Task<IActionResult> Details(int? id)
     {
-        var learners = _context.Learners.Include(
-           m => m.Major).AsQueryable();
-        if(mid != null)
-        {
-            learners = learners.Where(
-                l => l.MajorId == mid);
-        }
-        return View(await learners.ToListAsync());
+        var learner = await context.Learners.AsNoTracking().Include(l => l.Major).Include(l => l.Enrollments).ThenInclude(e => e.Course).FirstOrDefaultAsync(l => l.LearnerId == id);
+        return learner == null ? NotFound() : View(learner);
     }
 
-    // GET: LEARNERS/Details/5
-    public async Task<IActionResult> Details(int? learnerid)
+    public async Task<IActionResult> Create()
     {
-        if (learnerid == null)
-        {
-            return NotFound();
-        }
-
-        var learner = await _context.Learners
-            .FirstOrDefaultAsync(m => m.LearnerId == learnerid);
-        if (learner == null)
-        {
-            return NotFound();
-        }
-
-        return View(learner);
+        await LoadMajors();
+        return View(new Learner { EnrollmentDate = DateTime.Today });
     }
 
-    // GET: LEARNERS/Create
-    public IActionResult Create()
+    [HttpPost, ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create([Bind("FirstMidName,LastName,EnrollmentDate,MajorId")] Learner learner)
     {
-        return View();
-    }
-
-    // POST: LEARNERS/Create
-    // To protect from overposting attacks, enable the specific properties you want to bind to.
-    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("LearnerId,FirstMidName,LastName,EnrollmentDate,MajorId,Enrollments,Major")] Learner learner)
-    {
+        await ValidateMajor(learner);
         if (ModelState.IsValid)
         {
-            _context.Add(learner);
-            await _context.SaveChangesAsync();
+            learner.FirstMidName = learner.FirstMidName.Trim();
+            learner.LastName = learner.LastName.Trim();
+            context.Learners.Add(learner);
+            await context.SaveChangesAsync();
+            TempData["Success"] = "Đã thêm sinh viên thành công.";
             return RedirectToAction(nameof(Index));
         }
+        await LoadMajors(learner.MajorId);
         return View(learner);
     }
 
-    // GET: LEARNERS/Edit/5
-    public async Task<IActionResult> Edit(int? learnerid)
+    public async Task<IActionResult> Edit(int? id)
     {
-        if (learnerid == null)
-        {
-            return NotFound();
-        }
-
-        var learner = await _context.Learners.FindAsync(learnerid);
-        if (learner == null)
-        {
-            return NotFound();
-        }
+        var learner = await context.Learners.FindAsync(id);
+        if (learner == null) return NotFound();
+        await LoadMajors(learner.MajorId);
         return View(learner);
     }
 
-    // POST: LEARNERS/Edit/5
-    // To protect from overposting attacks, enable the specific properties you want to bind to.
-    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int? learnerid, [Bind("LearnerId,FirstMidName,LastName,EnrollmentDate,MajorId,Enrollments,Major")] Learner learner)
+    [HttpPost, ValidateAntiForgeryToken]
+    public async Task<IActionResult> Edit(int id, [Bind("LearnerId,FirstMidName,LastName,EnrollmentDate,MajorId")] Learner learner)
     {
-        if (learnerid != learner.LearnerId)
-        {
-            return NotFound();
-        }
-
+        if (id != learner.LearnerId) return NotFound();
+        var existing = await context.Learners.FindAsync(id);
+        if (existing == null) return NotFound();
+        await ValidateMajor(learner);
         if (ModelState.IsValid)
         {
-            try
-            {
-                _context.Update(learner);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!LearnerExists(learner.LearnerId))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            existing.FirstMidName = learner.FirstMidName.Trim();
+            existing.LastName = learner.LastName.Trim();
+            existing.EnrollmentDate = learner.EnrollmentDate;
+            existing.MajorId = learner.MajorId;
+            try { await context.SaveChangesAsync(); }
+            catch (DbUpdateConcurrencyException) { return NotFound(); }
+            TempData["Success"] = "Đã cập nhật thông tin sinh viên.";
             return RedirectToAction(nameof(Index));
         }
+        await LoadMajors(learner.MajorId);
         return View(learner);
     }
 
-    // GET: LEARNERS/Delete/5
-    public async Task<IActionResult> Delete(int? learnerid)
+    public async Task<IActionResult> Delete(int? id)
     {
-        if (learnerid == null)
-        {
-            return NotFound();
-        }
-
-        var learner = await _context.Learners
-            .FirstOrDefaultAsync(m => m.LearnerId == learnerid);
-        if (learner == null)
-        {
-            return NotFound();
-        }
-
-        return View(learner);
+        var learner = await context.Learners.AsNoTracking().Include(l => l.Major).FirstOrDefaultAsync(l => l.LearnerId == id);
+        return learner == null ? NotFound() : View(learner);
     }
 
-    // POST: LEARNERS/Delete/5
-    [HttpPost, ActionName("Delete")]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> DeleteConfirmed(int? learnerid)
+    [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        var learner = await _context.Learners.FindAsync(learnerid);
-        if (learner != null)
-        {
-            _context.Learners.Remove(learner);
-        }
-
-        await _context.SaveChangesAsync();
+        var learner = await context.Learners.Include(l => l.Enrollments).FirstOrDefaultAsync(l => l.LearnerId == id);
+        if (learner == null) return NotFound();
+        context.Enrollments.RemoveRange(learner.Enrollments);
+        context.Learners.Remove(learner);
+        await context.SaveChangesAsync();
+        TempData["Success"] = "Đã xóa sinh viên và các đăng ký học liên quan.";
         return RedirectToAction(nameof(Index));
     }
 
-    private bool LearnerExists(int? learnerid)
+    private async Task LoadMajors(int? selected = null) => ViewBag.Majors = new SelectList(await context.Majors.AsNoTracking().OrderBy(m => m.MajorName).ToListAsync(), "MajorId", "MajorName", selected);
+    private async Task ValidateMajor(Learner learner)
     {
-        return _context.Learners.Any(e => e.LearnerId == learnerid);
+        if (!await context.Majors.AnyAsync(m => m.MajorId == learner.MajorId))
+            ModelState.AddModelError(nameof(learner.MajorId), "Vui lòng chọn chuyên ngành hợp lệ.");
     }
 }
