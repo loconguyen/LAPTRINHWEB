@@ -1,0 +1,56 @@
+@model IEnumerable<Lab5.Models.Learner>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Ma
+            </th>
+            <th>
+                Tem
+            </th>
+            <th>
+               Ho
+            </th>
+            <th>
+                Nganh
+            </th>
+            <th>
+               Ngay nhap hoc
+            </th>
+            <th>
+                Chuc nang
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+              @item.LearnerId
+            </td>
+            <td>
+                @item.FirstMidName
+            </td>
+            <td>
+                @item.LastName
+            </td>
+            <td>
+                @item.Major?.MajorName
+            </td>
+            <td>
+                @item.EnrollmentDate
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.Major)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LearnerId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LearnerId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LearnerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
