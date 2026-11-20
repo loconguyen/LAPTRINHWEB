@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="~/css/style.css" rel="stylesheet"/>
+    <link href="~/css/slider.css" rel="stylesheet"/>
+    <link href="~/css/global.css" rel="stylesheet"/>
+    <link href="~/css/easy-responsive-tabs.css" rel="stylesheet"/>
+     <link href="~/css/site.css" rel="stylesheet"/>
+   
+
+</head>
+<body>
+    <header>
+        @await Component.InvokeAsync("LoaiHang")
+    </header>
+    <div class="maincontent">
+        @RenderBody()
+    </div>
+    <footer>
+        <partial name="_Footer"></partial>
+    </footer>
+    <script src="~lib/jquery/dist/jquery.js"></script>
+    <script>
+        $(document).on("click",function(event)){
+            event.preventDefault();
+            const maLoai = $(this).attr("data-ma-loai");
+
+
+
+            $ajax({
+                url: this.href,
+                type:"GET",
+                data:{maLoai: maLoai}
+                success: function(result){
+                    $("#danhSachHangHoa").html(result);
+                },
+                error: funtion()
+                {
+                    alert("loi ko tai dc")
+                }
+            });
+        });
+    </script>
+</body>
+</html>

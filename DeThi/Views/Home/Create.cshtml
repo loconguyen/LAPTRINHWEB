@@ -1,0 +1,39 @@
+@model HangHoaViewModel
+
+@{
+    ViewData["Title"] = "Thêm hàng hóa";
+}
+
+<h1>Thêm hàng hóa</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="TenHang" class="form-label">Tên hàng</label>
+        <input asp-for="TenHang" class="form-control" />
+        <span asp-validation-for="TenHang" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="MaLoai" class="form-label">Loại hàng</label>
+        <select asp-for="MaLoai" asp-items="ViewBag.LoaiHang" class="form-select">
+            <option value="">Chọn loại hàng</option>
+        </select>
+        <span asp-validation-for="MaLoai" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Gia" class="form-label">Giá</label>
+        <input asp-for="Gia" class="form-control" />
+        <span asp-validation-for="Gia" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Anh" class="form-label">Tên tệp ảnh</label>
+        <input asp-for="Anh" class="form-control" />
+        <span asp-validation-for="Anh" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
