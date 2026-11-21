@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="~/css/site.css" rel="stylesheet"/>
+    <link href="~/css/layout.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        @await Component.InvokeAsync("LoaiTaiSan")
+    </header>
+        <div class="maincontent">
+            @RenderBody()
+        </div>
+        <footer>
+            <partial name="NTML_Footer"></partial>
+        </footer>
+</body>
+    @section Script {
+        <Script src="~/js/ajax.js">
+
+        </Script>
+    }
+</html>

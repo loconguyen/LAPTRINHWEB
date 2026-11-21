@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\models\\loaitaisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:models\\loaitaisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\models\\taisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:models\\taisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\shared\\ntml_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\shared\\ntml_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\wwwroot\\js\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:wwwroot\\js\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\home\\_danhsachtaisan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\home\\_danhsachtaisan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\shared\\ntml_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\shared\\ntml_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\viewcomponents\\loaitaisanviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:viewcomponents\\loaitaisanviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\views\\shared\\ntml_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:views\\shared\\ntml_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\nguyenthiminhlocde1\\models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC021D62-986C-415B-8449-91F9970CF483}|NguyenThiMinhLocDe1.csproj|solutionrelative:models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 26,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:57:30.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_DanhSachTaiSan.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\_DanhSachTaiSan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_DanhSachTaiSan.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\_DanhSachTaiSan.cshtml",
+              "RelativeToolTip": "Views\\Home\\_DanhSachTaiSan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:19:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA/wDQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:21:22.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiSan.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\TaiSan.cs",
+              "RelativeDocumentMoniker": "Models\\TaiSan.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\TaiSan.cs",
+              "RelativeToolTip": "Models\\TaiSan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:24:26.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoaiTaiSan.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\LoaiTaiSan.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiTaiSan.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\LoaiTaiSan.cs",
+              "RelativeToolTip": "Models\\LoaiTaiSan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:49:04.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:05:08.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NTML_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Header.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Header.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:03:04.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NTML_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Layout.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:03:37.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ajax.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\wwwroot\\js\\ajax.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ajax.js",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\wwwroot\\js\\ajax.js",
+              "RelativeToolTip": "wwwroot\\js\\ajax.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-21T14:32:33.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoaiTaiSanViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\ViewComponents\\LoaiTaiSanViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\LoaiTaiSanViewComponent.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\ViewComponents\\LoaiTaiSanViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\LoaiTaiSanViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:08:32.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NTML_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Footer.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Views\\Shared\\NTML_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T14:03:19.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:00:58.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-21T14:00:23.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QLTaiSanContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\QLTaiSanContext.cs",
+              "RelativeDocumentMoniker": "Models\\QLTaiSanContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\NguyenThiMinhLocDe1\\Models\\QLTaiSanContext.cs",
+              "RelativeToolTip": "Models\\QLTaiSanContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T14:00:19.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
