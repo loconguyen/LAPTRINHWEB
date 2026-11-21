@@ -1,0 +1,22 @@
+﻿@model NguyenThiMinhLocDe2.Models.TaiSan
+<h2>sua tai san</h2>
+<form asp-action="Sua" method="post">
+    <input type="hidden" asp-for="MaTs"/>
+    <div class="form-group">
+        <label asp-for="MaLoai"> </label>
+        <select asp-for="MaLoai" asp-items="ViewBag.MaLoai" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="TenTs">Ten san pham</label>
+        <input asp-for="TenTs" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="NguyenGia">nguyen gia</label>
+        <input asp-for="NguyenGia" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Anh">anh</label>
+        <input asp-for="Anh"/>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button->
+</form>

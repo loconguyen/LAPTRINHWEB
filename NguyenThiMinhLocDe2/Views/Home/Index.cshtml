@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/NTML_Layout.cshtml";
+}
+@model IEnumerable<NguyenThiMinhLocDe2.Models.TaiSan>
+
+@await Html.PartialAsync("_DanhSachTaiSan",Model)
