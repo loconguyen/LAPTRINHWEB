@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/NTML_Layout.cshtml";
+}
+@model IEnumerable<lab14.Models.Sach>
+<div id="ds">
+    @await Html.PartialAsync("_DanhSach", Model)
+</div>
+<a asp-action="Create" asp-controller="Home" class="btn btn-primary">Them</a>

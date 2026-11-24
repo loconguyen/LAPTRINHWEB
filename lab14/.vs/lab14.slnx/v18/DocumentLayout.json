@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\wwwroot\\js\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:wwwroot\\js\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\shared\\ntml_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\shared\\ntml_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:models\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\models\\qlnhasachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:models\\qlnhasachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\shared\\ntml_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\shared\\ntml_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\home\\_danhsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\home\\_danhsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\viewcomponents\\theloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:viewcomponents\\theloaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|c:\\users\\nguye\\source\\repos\\laptrinhweb\\lab14\\views\\shared\\ntml_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECB62E72-0B9D-E360-A8FE-05D371E75B43}|lab14.csproj|solutionrelative:views\\shared\\ntml_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 26,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ajax.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\wwwroot\\js\\ajax.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ajax.js",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\wwwroot\\js\\ajax.js",
+              "RelativeToolTip": "wwwroot\\js\\ajax.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-24T16:21:20.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T15:55:27.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NTML_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T15:51:45.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwDIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:11:22.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "Models\\Sach.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\Sach.cs",
+              "RelativeToolTip": "Models\\Sach.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:00:02.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T16:57:30.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T16:58:06.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TheLoai.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\TheLoai.cs",
+              "RelativeDocumentMoniker": "Models\\TheLoai.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\TheLoai.cs",
+              "RelativeToolTip": "Models\\TheLoai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:49:30.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QLNhaSachContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\QLNhaSachContext.cs",
+              "RelativeDocumentMoniker": "Models\\QLNhaSachContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\QLNhaSachContext.cs",
+              "RelativeToolTip": "Models\\QLNhaSachContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T15:59:51.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:49:30.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NTML_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Header.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T15:51:19.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_DanhSach.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\_DanhSach.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_DanhSach.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Home\\_DanhSach.cshtml",
+              "RelativeToolTip": "Views\\Home\\_DanhSach.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T16:08:37.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TheLoaiViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\ViewComponents\\TheLoaiViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\TheLoaiViewComponent.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\ViewComponents\\TheLoaiViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\TheLoaiViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:03:08.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T16:00:43.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-24T16:00:13.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NTML_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\NTML_Footer.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\LAPTRINHWEB\\lab14\\Views\\Shared\\NTML_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\NTML_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-24T15:51:33.16Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
